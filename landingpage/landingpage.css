@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    max-width: 100%;
+}
+body{
+    min-height: 100vh;
+    background-image: url(gym1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    height: 20vh;
+}
+.navbar{
+    display: flex;
+}
+.Logo img{
+    height: 110px;
+    width: 130px;
+    margin-top: 10px;
+    margin-left: 30px; 
+    border-radius: 50% 50%; 
+}
+.list{
+    margin-left: 100px;
+
+}
+.list ul{
+    display: flex;
+    margin-top: 60px;
+
+}
+.list ul li{
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 0 12px;
+}
+.list ul li:hover a{
+    color: rgb(239, 174, 125);
+}
+.list ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.login{
+    margin-top: 45px;
+    margin-left: 30px;
+    display: flex;
+}
+.login a{
+    text-decoration: none;
+    text-decoration: underline 2px solid #fff;   
+}
+.login a button{
+    margin-left: 20px;
+    border: none;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #fff;
+    background:transparent;
+    text-decoration: underline 3px solid #fff;
+    text-underline-offset: 5px;
+    cursor: pointer;
+}
+.caption{
+    width: 500px;
+    background: transparent;
+    translate: 30deg;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-style: oblique;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    color: #fefefe;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+.caption a button{
+    height: 40px;
+    width: 100px;
+    background: #f80b0bec;
+    font-size: 15px;
+    color:#fefefe;
+    margin-top: 30px;
+    margin-left: 200px;
+    border: 1px solid #fff;
+    border-radius: 10%;
+    cursor: pointer;
+}
